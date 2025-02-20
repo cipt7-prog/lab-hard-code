@@ -3,7 +3,7 @@ const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
 const querystring = require("querystring");
-const SpotifyWebApi = require('spotify-web-api-node')
+const potifyWebApi = require('spotify-web-api-node')
 
 const app = express();
 const PORT = process.env.PORT || 5000;
